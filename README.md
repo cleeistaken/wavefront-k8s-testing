@@ -26,7 +26,7 @@ git clone https://github.com/cleeistaken/wavefront-k8s-testing.git
 ```shell
 # Update with correct values!
 SUPERVISOR_IP="10.160.125.133"
-SUPERVISOR_USERNAME="<username>@showcase.tmm.broadcom.lab"
+SUPERVISOR_USERNAME="<username>@domain"
 SUPERVISOR_NAMESPACE_NAME="wavefront"
 SUPERVISOR_CONTEXT="wavefront-ctx"
 CLUSTER_NAME="wavefront-vks"
