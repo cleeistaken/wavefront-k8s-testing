@@ -81,7 +81,6 @@ vcf context use $SUPERVISOR_CONTEXT:$SUPERVISOR_NAMESPACE_NAME
 ### 4. Create 'wavefront-vks' VKS cluster
 ```shell
 # Create a VKS cluster as defined in vks.yaml
-# Create a VKS cluster as defined in vks.yaml
 sed "s/cluster-vks/$CLUSTER_NAME/g" vks.yaml  | kubectl apply -f -
 
 # Expected output:
